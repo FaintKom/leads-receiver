@@ -1,0 +1,14 @@
+{
+  "name": "leads-receiver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Notion-backed lead receiver for mario.grasslms.online booking form. Standalone Bun HTTP service deployed via Coolify, isolated from GrassLMS.",
+  "type": "module",
+  "scripts": {
+    "start": "bun run server.js",
+    "dev":   "bun --watch run server.js"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
